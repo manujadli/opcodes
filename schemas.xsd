@@ -1,0 +1,773 @@
+<xs:schema attributeFormDefault="unqualified"
+	elementFormDefault="qualified"
+	targetNamespace="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes"
+	xmlns:op="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes">
+	<xs:element name="CUS_OP_SEARCH_outputFlist">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:string" name="POID" />
+				<xs:element name="RESULTS">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element type="xs:string"
+								name="CUS_FLD_BA_ACCOUNT_NO" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_CA_ACCOUNT_NO" />
+							<xs:element name="CUS_FLD_SPENDING_CAP">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:float"
+											name="CUS_FLD_SC_ACTUAL_VAL" />
+										<xs:element type="xs:float"
+											name="CUS_FLD_SC_MAX_VAL" />
+										<xs:element type="xs:short"
+											name="CUS_FLD_SC_MIN_VAL" />
+										<xs:element type="xs:byte" name="STATUS" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_SRVC_ATTRIBUTES_FIXEDLINE" minOccurs="0" maxOccurs="unbounded" type="CUS_FLD_SRVC_ATTRIBUTES_FIXEDLINE_ARRAY_CUS_OP_SEARCH_131223"/>
+							<xs:element name="CUS_FLD_SRVC_ATTRIBUTE">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:byte"
+											name="CUS_FLD_BAD_PIN_COUNT" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_DEVICE_MODEL" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_DEVICE_TYPE" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_DIRECTORY_UNLIST" />
+										<xs:element type="xs:dateTime"
+											name="CUS_FLD_FIRST_CALL_TIME" />
+										<xs:element type="xs:byte" name="CUS_FLD_LCMS_FLAG" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_LEGACY_SERVICE_NO" />
+										<xs:element type="xs:byte" name="CUS_FLD_MNP_FLAG" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_MOBAPP_FLAG" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_MOBMONEY_FLAG" />
+										<xs:element type="xs:byte" name="CUS_FLD_NICE" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_NICE_CATEGORY" />
+										<xs:element type="xs:string" name="CUS_FLD_OLD_SIM" />
+										<xs:element type="xs:byte" name="CUS_FLD_PRBT_FLAG" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_PREV_LIFECYCLE_STATE" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_PREV_STATUS" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_PRIVATE_NUMBER" />
+										<xs:element type="xs:byte" name="CUS_FLD_QTQR_FLAG" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_SELFCARE_FLAG" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_SENDER_ID" />
+										<xs:element type="xs:byte"
+											name="CUS_FLD_SENDER_ID_TYPE" />
+										<xs:element type="xs:dateTime"
+											name="CUS_FLD_UNLISTED_DATE" />
+										<xs:element type="xs:int" name="PUK1" />
+										<xs:element type="xs:int" name="PUK2" />
+										<xs:element type="xs:string" name="USER_NAME" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_SUSPENSION_STATUS">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:dateTime" name="END_T" />
+										<xs:element type="xs:string" name="ORDER_ID" />
+										<xs:element type="xs:byte" name="REASON" />
+										<xs:element type="xs:dateTime" name="START_T" />
+										<xs:element type="xs:byte" name="STATUS" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="ACCOUNT_NO" />
+							<xs:element name="ALIAS_LIST">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:long" name="IMSI" />
+										<xs:element type="xs:integer" name="SIM" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CONTRACTS">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:dateTime"
+											name="CUS_FLD_CONTRACT_END_T" />
+										<xs:element type="xs:dateTime"
+											name="CUS_FLD_CONTRACT_START_T" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_PLAN_NAME" />
+										<xs:element type="xs:byte" name="AMOUNT" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_CONTACTS" minOccurs="0"
+								maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="CUS_FLD_ALT_EMAIL" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_ALT_PHONE" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_DESIGNATION"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_EMAIL" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="FIRST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="PHONE" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="DEPOSITS" maxOccurs="unbounded"
+								minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string"
+											name="CUS_FLD_CA_ACCOUNT_NO" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_CEASED_COMMENTS" />
+										<xs:element type="xs:dateTime"
+											name="CUS_FLD_COLLECTED_ON" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_DEPOSIT_WAIVER" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_SERVICE_TYPE" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_WAIVER_REASON" />
+										<xs:element type="xs:string" name="ACCOUNT_NO" />
+										<xs:element type="xs:short" name="AMOUNT" />
+										<xs:element type="xs:string" name="DEPOSIT_ID" />
+										<xs:element type="xs:string" name="GRANTOR_OBJ" />
+										<xs:element type="xs:long" name="MSISDN" />
+										<xs:element type="xs:string" name="RECEIPT_NO" />
+										<xs:element type="xs:byte" name="STATUS" />
+										<xs:element type="xs:byte" name="TYPE" />
+										<xs:element type="xs:string" name="TYPE_STR" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem"
+										use="optional" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:long" name="DEVICE_ID" />
+							<xs:element type="xs:byte" name="LIFECYCLE_STATE" />
+							<xs:element type="xs:byte" name="PAY_TYPE" />
+							<xs:element name="CREATED_T" type="xs:string"
+								minOccurs="0" maxOccurs="1" />
+							<xs:element name="CUS_FLD_ADDRESS">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ADDRESS" minOccurs="0"
+											type="xs:string" maxOccurs="1" />
+
+
+										<xs:element name="CITY" minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="COUNTRY" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_AREA" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_BLOCK" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_BUILDING" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_FLOOR_NO" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_LATITUDE" minOccurs="0"
+											type="xs:string" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_LONGITUDE"
+											type="xs:string" minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_POSTBOX_NUMBER"
+											type="xs:string" minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_POSTOFFICE_NAME"
+											type="xs:string" minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_ROOM_NO" type="xs:string"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_STREET" type="xs:string"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="ZIP" type="xs:string"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string"
+								name="CUS_FLD_ALT_EMAIL_1" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_ALT_EMAIL_2" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_ALT_EMAIL_3" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_ALT_EMAIL_4" />
+							<xs:element type="xs:string" name="CUS_FLD_ALT_ID_NUM" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_ALT_ID_TYPE" />
+							<xs:element name="PLAN" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:string"
+											name="CUS_FLD_COM_PLAN_NAME" />
+										<xs:element type="xs:string"
+											name="CUS_FLD_PLAN_TYPE" />
+										<xs:element type="xs:dateTime" name="END_T" />
+										<xs:element type="xs:string" name="NAME" />
+										<xs:element type="xs:string" name="PACKAGE_ID" />
+										<xs:element type="xs:dateTime" name="START_T" />
+										<xs:element type="xs:string" name="STATUS" />
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:string" name="SERVICE_ID" />
+							<xs:element type="xs:string" name="SERVICE_TYPE" />
+							<xs:element type="xs:string" name="STATUS" />
+							<xs:element type="xs:string" name="FIRST_NAME" />
+							<xs:element type="xs:string" name="LAST_NAME" />
+							<xs:element type="xs:string" name="CUS_FLD_ID_NUM" />
+							<xs:element type="xs:string" name="CUS_FLD_ID_TYPE" />
+							<xs:element type="xs:string" name="CUS_FLD_INS_STATUS" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_NATIONALITY" />
+							<xs:element type="xs:string" name="CUS_FLD_ACCT_MODEL" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_ACCUMULATED_LP" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_CUSTOMER_TYPE" />
+							<xs:element type="xs:string" name="CUS_FLD_MARKET_CAT" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_SUB_MARKET_CAT" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_BLACKLISTED" />
+							<xs:element type="xs:string"
+								name="CUS_FLD_COLLECTION_STATUS" />
+							<xs:element name="CUS_FLD_AUTH_SIGNATORY">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CUS_FLD_ID_NUM" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_ID_TYPE" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="FIRST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_CHILD_ACCOUNTS"
+								minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="ACCOUNT_OBJ" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="BUSINESS_TYPE" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="CUS_FLD_BUSINESS_TYPE"
+											minOccurs="0" maxOccurs="1"></xs:element>
+										<xs:element name="CUS_FLD_CHILD_ACCOUNT"
+											minOccurs="0" maxOccurs="1"></xs:element>
+										<xs:element name="CUS_FLD_ID_NUM" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="CUS_FLD_ID_TYPE" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="DUE" type="xs:string" />
+										<xs:element name="FIRST_NAME" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0"
+											maxOccurs="1"></xs:element>
+										<xs:element name="SERVICES" minOccurs="0"
+											maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="CUS_FLD_BARRING_STATUS"
+														minOccurs="0" maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="CUS_FLD_CUSTOMER_TYPE"
+														minOccurs="0" maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="DEVICE_ID" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="CUS_FLD_SERVICE_TYPE"
+														minOccurs="0" maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="END_T" type="xs:string"
+														minOccurs="0" maxOccurs="1" />
+													<xs:element name="ORDER_DATE" type="xs:string"
+														minOccurs="0" maxOccurs="1" />
+													<xs:element name="ORDER_ID" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="PASSWD_CLEAR" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="PAY_TYPE" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="PRIMARY_MSID" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="REASON" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="SERVICE_ID" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="START_T" type="xs:string"
+														minOccurs="0" maxOccurs="1" />
+													<xs:element name="STATUS" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+													<xs:element name="STATUS_STR" minOccurs="0"
+														maxOccurs="1">
+
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="STATUS" minOccurs="0"
+											maxOccurs="1">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="10100" />
+													<xs:enumeration value="10102" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="STATUS_STR" minOccurs="0"
+											maxOccurs="1"></xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_BA_ACCOUNTS" minOccurs="0"
+								maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence minOccurs="0" maxOccurs="unbounded">
+										<xs:element name="ACCOUNT_OBJ" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="BUSINESS_TYPE" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_BA_ACCOUNT_NO"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_BUSINESS_TYPE"
+											minOccurs="0" maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_CHILD_ACCOUNTS"
+											minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence minOccurs="0" maxOccurs="unbounded">
+													<xs:element name="ACCOUNT_OBJ" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="BUSINESS_TYPE" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="CUS_FLD_BUSINESS_TYPE"
+														minOccurs="0" maxOccurs="1"></xs:element>
+													<xs:element name="CUS_FLD_CHILD_ACCOUNT"
+														minOccurs="0" maxOccurs="1"></xs:element>
+													<xs:element name="CUS_FLD_ID_NUM" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="CUS_FLD_ID_TYPE" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="DUE" type="xs:string" />
+													<xs:element name="FIRST_NAME" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="LAST_NAME" minOccurs="0"
+														maxOccurs="1"></xs:element>
+													<xs:element name="SERVICES" minOccurs="0"
+														maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence minOccurs="0"
+																maxOccurs="unbounded">
+																<xs:element name="CUS_FLD_BARRING_STATUS"
+																	minOccurs="0" maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="CUS_FLD_CUSTOMER_TYPE"
+																	minOccurs="0" maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="CUS_FLD_SERVICE_TYPE"
+																	minOccurs="0" maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="END_T" type="xs:string"
+																	minOccurs="0" maxOccurs="1" />
+																<xs:element name="ORDER_DATE"
+																	type="xs:string" minOccurs="0" maxOccurs="1" />
+																<xs:element name="ORDER_ID" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="PASSWD_CLEAR" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="PAY_TYPE" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="PRIMARY_MSID" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="REASON" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="SERVICE_ID" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="START_T" type="xs:string"
+																	minOccurs="0" maxOccurs="1" />
+																<xs:element name="STATUS" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+																<xs:element name="STATUS_STR" minOccurs="0"
+																	maxOccurs="1">
+
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="STATUS" minOccurs="0"
+														maxOccurs="1">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="10100" />
+																<xs:enumeration value="10102" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="STATUS_STR" minOccurs="0"
+														maxOccurs="1"></xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="CUS_FLD_ID_NUM" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="CUS_FLD_ID_TYPE" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="DUE" type="xs:string" />
+										<xs:element name="FIRST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="LAST_NAME" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="STATUS" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+										<xs:element name="STATUS_STR" minOccurs="0"
+											maxOccurs="1">
+
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="BILLS">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ADJUSTED" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="CUS_FLD_REFUND_AMOUNT"
+											type="xs:string" minOccurs="0" maxOccurs="1" />
+										<xs:element name="DISPUTED" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="DUE" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="DUE_T" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="PREVIOUS_TOTAL" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="RECVD" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+										<xs:element name="TOTAL_DUE" type="xs:string"
+											minOccurs="0" maxOccurs="1" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CURRENT_BAL" type="xs:string" />
+							<xs:element name="UNAPPLIED_AMOUNT" type="xs:string" />
+							<xs:element name="SUPPRESSION_CYCLES_LEFT"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_CONTACT_NUM"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_CONTACT_PREFERENCE"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_CS_CHECK_T" type="xs:string" />
+							<xs:element name="CUS_FLD_DOB" type="xs:string" />
+							<xs:element name="CUS_FLD_GENDER" type="xs:string" />
+							<xs:element name="CUS_FLD_LEGACY_ACCOUNT_NO"
+								type="xs:string" />
+							<xs:element name="COMPANY" type="xs:string" />
+							<xs:element name="EMAIL_ADDR" type="xs:string" />
+							<xs:element name="MANAGER_NAME" type="xs:string" />
+							<xs:element name="PHONE" type="xs:string" />
+							<xs:element name="SALUTATION" type="xs:string" />
+							<xs:element name="STATUS_STR" type="xs:string" />
+							<xs:element name="VALUE" type="xs:string" />
+							<xs:element name="CUS_FLD_CREDIT_SCORE"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_DELIVERY_METHOD">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DELIVERY_PREFER" minOccurs="0"
+											maxOccurs="1">
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_LOYALITY_CLASSES">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="CUS_FLD_LOYALITY_CLASS"
+											minOccurs="0" maxOccurs="1">
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute type="xs:byte" name="elem" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_DEPOSIT_NATIONALITY"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_INV_PREFER" type="xs:string" />
+							<xs:element name="CUS_FLD_NOTIFICATION_DELIVERY"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_NOTIF_LANG" type="xs:string" />
+
+							<xs:element name="CUS_FLD_PTP">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="DAYS" minOccurs="0" maxOccurs="1">
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CUS_FLD_REDEEMED_LP"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_REVENUE_SEGMENT"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_STAFFID" type="xs:string" />
+							<xs:element name="CUS_FLD_STAR_RATING"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_PASSPHRASE" type="xs:string" />
+							<xs:element name="CUS_FLD_TIN_NUM" type="xs:string" />
+							<xs:element name="CUS_FLD_TOTAL_OS" type="xs:string" />
+							<xs:element name="CUS_FLD_TRADE_PERMIT"
+								type="xs:string" />
+							<xs:element name="CUS_FLD_UPDATED_ON" type="xs:string" />
+							<xs:element name="CUS_FLD_WRITEOFF_FLAG"
+								type="xs:string" />
+							<xs:element name="ACTG_CYCLE_DOM" type="xs:string" />
+
+							<xs:element name="COUNT" type="xs:string" />
+
+							<xs:element name="CURRENCY" type="xs:string" />
+
+
+							<xs:element name="EXEMPT_FROM_COLLECTIONS"
+								type="xs:string" />
+							<xs:element name="LAST_BILL_T" type="xs:string" />
+
+							<xs:element name="NEXT_BILL_T" type="xs:string" />
+							<xs:element name="OVERDUE_AMOUNT" type="xs:string" />
+
+
+						</xs:sequence>
+						<xs:attribute type="xs:byte" name="elem" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element type="xs:byte" name="STATUS" />
+				<xs:element name="ERROR_CODE" type="xs:string" />
+				<xs:element name="ERROR_DESCR" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType
+		name="CUS_FLD_ADDRESS_ARRAY_CUS_OP_SEARCH_131226">
+		<xs:sequence minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="ADDRESS" minOccurs="0" maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CITY" minOccurs="0" maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="COUNTRY" minOccurs="0" maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_AREA" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_BLOCK" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_BUILDING" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_FLOOR_NO" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_LATITUDE" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_LONGITUDE" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_POSTBOX_NUMBER" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_POSTOFFICE_NAME" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_ROOM_NO" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="CUS_FLD_STREET" minOccurs="0"
+				maxOccurs="1">
+
+			</xs:element>
+			<xs:element name="ZIP" minOccurs="0" maxOccurs="1">
+
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CUS_FLD_SRVC_ATTRIBUTES_FIXEDLINE_ARRAY_CUS_OP_SEARCH_131223">
+      <xs:sequence>
+         <xs:element name="CREATED_T" type="xs:string" minOccurs="0" maxOccurs="1"/>
+         <xs:element name="CUS_FLD_ADDRESS" minOccurs="0" maxOccurs="unbounded" type="CUS_FLD_ADDRESS_ARRAY_CUS_OP_SEARCH_13122311"/>
+         <xs:element name="CUS_FLD_DEVICE_MODEL" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_DEVICE_TYPE" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_MAC_ADDRESS" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_MEDIUM" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_NETWORK_TYPE" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_ONT_NO" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_ONT_PORT" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_SLA_TYPE" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_STB_NO" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="EMAIL_ADDR" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="RELEASED_T" type="xs:string" minOccurs="0" maxOccurs="1"/>
+         <xs:element name="START_T" type="xs:string" minOccurs="0" maxOccurs="1"/>
+         <xs:element name="USER_NAME" minOccurs="1" maxOccurs="1" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="CUS_FLD_ADDRESS_ARRAY_CUS_OP_SEARCH_13122311">
+      <xs:sequence>
+         <xs:element name="ADDRESS" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CITY" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="COUNTRY" minOccurs="0" maxOccurs="1" type="xs:string"/> 
+         <xs:element name="CUS_FLD_AREA" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_BLOCK" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_BUILDING" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_DIVISION" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_FLOOR_NO" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_LATITUDE" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_LONGITUDE" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_LOT_DP_NO" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_POSTBOX_NUMBER" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_POSTOFFICE_NAME" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_ROOM_NO" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="CUS_FLD_STREET" minOccurs="0" maxOccurs="1" type="xs:string"/>
+         <xs:element name="ZIP" minOccurs="0" maxOccurs="1" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+</xs:schema>
