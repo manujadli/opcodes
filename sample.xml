@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<brm:CUS_OP_SEARCH_outputFlist
+	xmlns:brm="http://xmlns.oracle.com/BRM/schemas/BusinessOpcodes">
+	<brm:POID>0.0.0.1 /search -1 0</brm:POID>
+	<brm:RESULTS elem="0">
+		<brm:CUS_FLD_ADDRESS elem="0">
+			<brm:CUS_FLD_AREA>Punee</brm:CUS_FLD_AREA>
+			<brm:CUS_FLD_SETTLEMENT_NAME/>
+			<brm:CUS_FLD_STREET>Z</brm:CUS_FLD_STREET>
+			<brm:CUS_FLD_STREET_NO>28</brm:CUS_FLD_STREET_NO>
+			<brm:COUNTRY>Greece</brm:COUNTRY>
+			<brm:ZIP>411021</brm:ZIP>
+		</brm:CUS_FLD_ADDRESS>
+		<brm:CUS_FLD_ALT_ID_NUM/>
+		<brm:CUS_FLD_ALT_ID_TYPE>Passport</brm:CUS_FLD_ALT_ID_TYPE>
+		<brm:CUS_FLD_BILL_METHOD>1</brm:CUS_FLD_BILL_METHOD>
+		<brm:CUS_FLD_CA_ACCOUNT_NO>CA10000464</brm:CUS_FLD_CA_ACCOUNT_NO>
+		<brm:CUS_FLD_CHILD_ACCOUNTS elem="0">
+			<brm:CUS_FLD_CHILD_ACCOUNT>NPC10002442</brm:CUS_FLD_CHILD_ACCOUNT>
+			<brm:CUS_FLD_CONTACT_NUM>6977345617</brm:CUS_FLD_CONTACT_NUM>
+			<brm:CUS_FLD_CUSTOMER_TYPE>SoHo</brm:CUS_FLD_CUSTOMER_TYPE>
+			<brm:CUS_FLD_DOB>2024-06-04</brm:CUS_FLD_DOB>
+			<brm:CUS_FLD_FATHER_NAME>pkopnara</brm:CUS_FLD_FATHER_NAME>
+			<brm:CUS_FLD_LEGAL_REP_CONTACT>6952451487</brm:CUS_FLD_LEGAL_REP_CONTACT>
+			<brm:CUS_FLD_LEGAL_REP_NAME>NANDUa</brm:CUS_FLD_LEGAL_REP_NAME>
+			<brm:CUS_FLD_LEGAL_REP_SNAME>NANADU</brm:CUS_FLD_LEGAL_REP_SNAME>
+			<brm:EMAIL_ADDR>πράνβα@dfsdf.com</brm:EMAIL_ADDR>
+			<brm:FIRST_NAME/>
+			<brm:LAST_NAME>KopnarN</brm:LAST_NAME>
+		</brm:CUS_FLD_CHILD_ACCOUNTS>
+		<brm:CUS_FLD_CHILD_ACCOUNTS elem="1">
+			<brm:CUS_FLD_CHILD_ACCOUNT>NPC10000466</brm:CUS_FLD_CHILD_ACCOUNT>
+			<brm:CUS_FLD_CONTACT_NUM>6977345617</brm:CUS_FLD_CONTACT_NUM>
+			<brm:CUS_FLD_CUSTOMER_TYPE>Residential</brm:CUS_FLD_CUSTOMER_TYPE>
+			<brm:CUS_FLD_DOB>2024-06-04</brm:CUS_FLD_DOB>
+			<brm:CUS_FLD_FATHER_NAME>pkopnar</brm:CUS_FLD_FATHER_NAME>
+			<brm:CUS_FLD_LEGAL_REP_CONTACT>NA</brm:CUS_FLD_LEGAL_REP_CONTACT>
+			<brm:CUS_FLD_LEGAL_REP_NAME>NA</brm:CUS_FLD_LEGAL_REP_NAME>
+			<brm:CUS_FLD_LEGAL_REP_SNAME>NA</brm:CUS_FLD_LEGAL_REP_SNAME>
+			<brm:EMAIL_ADDR>πράνβα@dfsdf.com</brm:EMAIL_ADDR>
+			<brm:FIRST_NAME>Pranav</brm:FIRST_NAME>
+			<brm:LAST_NAME>Kopnar</brm:LAST_NAME>
+			<brm:SERVICES elem="0">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0075151</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="1">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150001</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="2">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150012</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="3">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150029</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="4">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0225009</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="5">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0075021</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="6">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB1</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="7">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB2</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="8">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375015</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="9">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB3</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="10">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB10</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="11">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2024-07-11T15:11:24Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150015</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="12">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2024-07-11T15:26:20Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150016</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="13">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB4</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="14">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0600003</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="15">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="16">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375011</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="17">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON>Requested by customer</brm:CUS_FLD_REASON>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID>Broadband_SuspendVoluntary_0116965</brm:ORDER_ID>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>2025-02-11T11:04:32Z</brm:START_T>
+					<brm:STATUS>5</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2025-02-11T12:08:50Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB1925011</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="18">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON>Requested by customer</brm:CUS_FLD_REASON>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID>Broadband_SuspendVoluntary_0116965</brm:ORDER_ID>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>2025-02-11T11:04:32Z</brm:START_T>
+					<brm:STATUS>5</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0075135</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="19">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="20">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB11</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="21">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0600008</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="22">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0075138</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="23">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 2.5Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 2,5Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 2,5Gbps, ταχύτητα Upload 1,25Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF25</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150011</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="24">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375012</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="25">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB5</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="26">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0450015</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="27">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2024-07-10T16:44:04Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150006</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="28">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0225010</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="29">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB8</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="30">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB9</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="31">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2024-09-11T12:40:13Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0675005-20240911124013</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="32">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0150018</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="33">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0375008_SB7</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+		</brm:CUS_FLD_CHILD_ACCOUNTS>
+		<brm:CUS_FLD_CHILD_ACCOUNTS elem="2">
+			<brm:CUS_FLD_CHILD_ACCOUNT>NPC10000921</brm:CUS_FLD_CHILD_ACCOUNT>
+			<brm:CUS_FLD_CONTACT_NUM>6977345617</brm:CUS_FLD_CONTACT_NUM>
+			<brm:CUS_FLD_CUSTOMER_TYPE>Residential</brm:CUS_FLD_CUSTOMER_TYPE>
+			<brm:CUS_FLD_DOB>2024-06-04</brm:CUS_FLD_DOB>
+			<brm:CUS_FLD_FATHER_NAME>pkopnar</brm:CUS_FLD_FATHER_NAME>
+			<brm:CUS_FLD_LEGAL_REP_CONTACT>NA</brm:CUS_FLD_LEGAL_REP_CONTACT>
+			<brm:CUS_FLD_LEGAL_REP_NAME>NA</brm:CUS_FLD_LEGAL_REP_NAME>
+			<brm:CUS_FLD_LEGAL_REP_SNAME>NA</brm:CUS_FLD_LEGAL_REP_SNAME>
+			<brm:EMAIL_ADDR>πράνβα@dfsdf.com</brm:EMAIL_ADDR>
+			<brm:FIRST_NAME>Pranav</brm:FIRST_NAME>
+			<brm:LAST_NAME>Kopnar</brm:LAST_NAME>
+			<brm:SERVICES elem="0">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0600002</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="1">
+				<brm:CUS_FLD_COM_PLAN_NAME>ΔΕΗ MyFiber 1Gbps</brm:CUS_FLD_COM_PLAN_NAME>
+				<brm:CUS_FLD_CONTRACT_DESCR>Το ΔΕΗ MyFiber 1Gbps προσφέρει απεριόριστο &amp; ταχύτατο Internet με ταχύτητα download 1Gbps, ταχύτητα Upload 500Mbps και επιλογές πρόσθετων υπηρεσιών</brm:CUS_FLD_CONTRACT_DESCR>
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:NAME>DF1</brm:NAME>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0600004</brm:SERVICE_ID>
+				<brm:STATUS>10100</brm:STATUS>
+				<brm:STATUS_STR>Active</brm:STATUS_STR>
+			</brm:SERVICES>
+			<brm:SERVICES elem="2">
+				<brm:CUS_FLD_SERVICE_TYPE>Fiber Broadband</brm:CUS_FLD_SERVICE_TYPE>
+				<brm:CUS_FLD_SUSPENSION_STATUS elem="0">
+					<brm:CUS_FLD_REASON/>
+					<brm:END_T>1970-01-01T02:00:00Z</brm:END_T>
+					<brm:ORDER_ID/>
+					<brm:REASON>0</brm:REASON>
+					<brm:START_COLLECTIONS/>
+					<brm:START_T>1970-01-01T02:00:00Z</brm:START_T>
+					<brm:STATUS>0</brm:STATUS>
+				</brm:CUS_FLD_SUSPENSION_STATUS>
+				<brm:END_T>2024-09-04T08:27:46Z</brm:END_T>
+				<brm:PAY_TYPE>2</brm:PAY_TYPE>
+				<brm:SERVICE_ID>FB0600010-20240904082746</brm:SERVICE_ID>
+				<brm:STATUS>10103</brm:STATUS>
+				<brm:STATUS_STR>Closed</brm:STATUS_STR>
+			</brm:SERVICES>
+		</brm:CUS_FLD_CHILD_ACCOUNTS>
+		<brm:CUS_FLD_COLLECTION_STATUS>0</brm:CUS_FLD_COLLECTION_STATUS>
+		<brm:CUS_FLD_CONSENT_PDP>true</brm:CUS_FLD_CONSENT_PDP>
+		<brm:CUS_FLD_CONTACT_NUM>6977345617</brm:CUS_FLD_CONTACT_NUM>
+		<brm:CUS_FLD_CUSTOMER_TYPE>SoHo</brm:CUS_FLD_CUSTOMER_TYPE>
+		<brm:CUS_FLD_DOB>2024-06-04</brm:CUS_FLD_DOB>
+		<brm:CUS_FLD_EBILL_FLAG>true</brm:CUS_FLD_EBILL_FLAG>
+		<brm:CUS_FLD_EXP_DATE>2024-06-11</brm:CUS_FLD_EXP_DATE>
+		<brm:CUS_FLD_FATHER_NAME>rtyrtyrty</brm:CUS_FLD_FATHER_NAME>
+		<brm:CUS_FLD_ID_NUM>234561798</brm:CUS_FLD_ID_NUM>
+		<brm:CUS_FLD_ID_TYPE>TIN Number</brm:CUS_FLD_ID_TYPE>
+		<brm:CUS_FLD_LEGAL_REP_CONTACT>6912351487</brm:CUS_FLD_LEGAL_REP_CONTACT>
+		<brm:CUS_FLD_LEGAL_REP_NAME>NANDa</brm:CUS_FLD_LEGAL_REP_NAME>
+		<brm:CUS_FLD_LEGAL_REP_SNAME>NANdu</brm:CUS_FLD_LEGAL_REP_SNAME>
+		<brm:CUS_FLD_VOUCHER_ID/>
+		<brm:CUS_FLD_WRITEOFF_AMOUNT/>
+		<brm:ACCOUNT_NO>BA10000465</brm:ACCOUNT_NO>
+		<brm:ACTG_CYCLE_DOM>21</brm:ACTG_CYCLE_DOM>
+		<brm:BILLINFO_OBJ>0.0.0.1 /billinfo 5667161 63</brm:BILLINFO_OBJ>
+		<brm:BILLS elem="0">
+			<brm:CUS_FLD_REFUND_AMOUNT>0</brm:CUS_FLD_REFUND_AMOUNT>
+			<brm:ADJUSTED>353.24</brm:ADJUSTED>
+			<brm:DISPUTED>0</brm:DISPUTED>
+			<brm:DUE>1542.79</brm:DUE>
+			<brm:DUE_T>2025-10-22T00:00:00Z</brm:DUE_T>
+			<brm:PREVIOUS_TOTAL>207.30</brm:PREVIOUS_TOTAL>
+			<brm:RECVD>0</brm:RECVD>
+			<brm:TOTAL_DUE>0</brm:TOTAL_DUE>
+		</brm:BILLS>
+		<brm:BILL_WHEN>1</brm:BILL_WHEN>
+		<brm:CATEGORY_ID>0</brm:CATEGORY_ID>
+		<brm:CURRENCY>978</brm:CURRENCY>
+		<brm:CURRENT_BAL>630.00</brm:CURRENT_BAL>
+		<brm:EMAIL_ADDR>πράνβα@dfsdf.com</brm:EMAIL_ADDR>
+		<brm:EXEMPT_FROM_COLLECTIONS>0</brm:EXEMPT_FROM_COLLECTIONS>
+		<brm:FIRST_NAME>satyan</brm:FIRST_NAME>
+		<brm:INV_TYPE>0</brm:INV_TYPE>
+		<brm:LAST_BILL_T>2025-09-21T00:00:00Z</brm:LAST_BILL_T>
+		<brm:LAST_NAME>Kopnar</brm:LAST_NAME>
+		<brm:NEXT_BILL_T>2025-10-21T00:00:00Z</brm:NEXT_BILL_T>
+		<brm:OVERDUE_AMOUNT>1027.04</brm:OVERDUE_AMOUNT>
+		<brm:PAY_TYPE>10001</brm:PAY_TYPE>
+		<brm:STATUS_STR>Active</brm:STATUS_STR>
+		<brm:SUPPRESSION_CYCLES_LEFT>0</brm:SUPPRESSION_CYCLES_LEFT>
+		<brm:TITLE>Agriculture and Skilled Crafts</brm:TITLE>
+		<brm:UNAPPLIED_AMOUNT>0</brm:UNAPPLIED_AMOUNT>
+		<brm:UNIQUE_ID>RF34929018000000001000041</brm:UNIQUE_ID>
+	</brm:RESULTS>
+	<brm:STATUS>0</brm:STATUS>
+</brm:CUS_OP_SEARCH_outputFlist>
